@@ -9,9 +9,12 @@ function print(text) {
  * @returns {boolean}
  */
 function isValid(name) {
- if(name.length >= 4 && name != null && name.includes(' ')==false ){
+ if(name != null && name.length >= 4 &&  name.includes(' ')==false ){
     return true;
  } 
+ 
+    return false;
+
 }
 
 /**
