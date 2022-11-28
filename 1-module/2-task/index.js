@@ -9,14 +9,8 @@ function print(text) {
  * @returns {boolean}
  */
 function isValid(name) {
- if(name != null && name.length >= 4 &&  name.includes(' ')==false ){
-    return true;
- } 
- 
-    return false;
-
+  return name != null && name.length >= 4 && !name.includes(' ')
 }
-
 /**
  * Эту функцию трогать не нужно
  */
